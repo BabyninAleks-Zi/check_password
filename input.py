@@ -31,5 +31,4 @@ def check_password(password):
     print(score, rating)
 
 
-if __name__ == '__main__':
-    check_password(input('Введите пароль:'))
+check_password(input('Введите пароль:'))
